@@ -1,24 +1,19 @@
 /* DEVELOPER Nicole Villavicencio, IS117-007, Fall 2024 */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #fdf8fc; /* very light pink background */
+    background-color: #fdf8fc; 
     color: #333;
 }
 
-/* ==============================================
-   Colors
-============================================== */
+
 :root {
-    --primary-color: #ff6fa3;   /* pink */
-    --secondary-color: #6fa8ff; /* blue */
-    --accent-color: #ffb6c1;    /* light pink */
+    --primary-color: #ff6fa3;  
+    --secondary-color: #6fa8ff; 
+    --accent-color: #ffb6c1;    
     --light-bg: #fdf8fc;
     --dark-text: #333;
 }
 
-/* ==============================================
-   Header
-============================================== */
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: #fff;
@@ -35,9 +30,7 @@ header p {
     font-size: 1.2rem;
 }
 
-/* ==============================================
-   Navbar
-============================================== */
+
 .navbar {
     background-color: var(--secondary-color) !important;
 }
@@ -51,9 +44,7 @@ header p {
     color: var(--accent-color) !important;
 }
 
-/* ==============================================
-   Cards
-============================================== */
+
 .card {
     border-radius: 1rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -73,15 +64,13 @@ header p {
     margin-bottom: 0.5rem;
 }
 
-/* Nested tips card */
+
 .card .card-body .card {
     background-color: var(--light-bg);
     border-left: 4px solid var(--primary-color);
 }
 
-/* ==============================================
-   Buttons
-============================================== */
+
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -92,9 +81,7 @@ header p {
     border-color: var(--secondary-color);
 }
 
-/* ==============================================
-   Footer
-============================================== */
+
 footer {
     background-color: var(--secondary-color);
     color: #fff;
@@ -103,9 +90,7 @@ footer {
     font-size: 0.9rem;
 }
 
-/* ==============================================
-   Form Inputs
-============================================== */
+
 .form-control {
     border-radius: 0.5rem;
     border: 1px solid #ccc;
@@ -115,9 +100,6 @@ footer {
     border-radius: 0.5rem;
 }
 
-/* ==============================================
-   Responsive Typography
-============================================== */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
@@ -128,9 +110,7 @@ footer {
     }
 }
 
-/* ==============================================
-   Misc
-============================================== */
+
 ul {
     padding-left: 1.2rem;
 }
@@ -140,8 +120,8 @@ ul {
 }
 
 .text-align {
-    text-align: left; /* Aligns text to the left */
-    line-height: 1.6; /* Adjusts line spacing for better readability */
+    text-align: left; 
+    line-height: 1.6; 
 }
 
 .card2-img-top{ 
@@ -152,4 +132,5 @@ ul {
 .card3-img-top{ 
     width: 50%; 
     height: auto; 
+
 }
