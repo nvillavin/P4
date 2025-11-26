@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <!-- DEVELOPER: Nicole Villavicencio, IS117-007, Fall 2025 -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Penelope</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+
+    <!-- Logo / Site Name -->
+    <a class="navbar-brand" href="index.html">Penelope</a>
+
+    <!-- Mobile Menu Button -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+
+        <!-- Dropdown Menu (required for 2-tier navigation) -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            Ingredient Checker
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="alt-ingredients.html">Checker + Alternatives</a></li>
+            <li><a class="dropdown-item" href="ingredients-routine.html">Day/Night Routine</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact us</a>
+        </li>
+
+
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Content Area: Carousel -->
+<div id="mainCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="Slide 1.jfif" class="d-block w-100" alt="Slide 1">
+</div>
+<div class="carousel-item">
+<img src="Slide 2.avif" class="d-block w-100" alt="Slide 2">
+</div>
+<div class="carousel-item">
+<img src="Slide 3.avif" class="d-block w-100" alt="Slide 3">
+</div>
+</div>
+
+
+<button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+
+<!-- Bootstrap Cards Section -->
+<div class="card-group">
+  <div class="card">
+    <img src="Card 1.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Smart Skincare Tools</h5>
+      <p class="card-text">Take the guesswork out of your skincare routine. Our Ingredient Checker analyzes your products and tells you what’s safe, what to avoid, and what alternatives to try. Plus, our Routine Builder creates a personalized day and night routine based on your skin concerns.</p>
+      <p class="card-text"><small class="text-body-secondary"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Card 2.jpg" class="card2-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Join Our Community</h5>
+      <p class="card-text">Stay updated with skincare tips, ingredient education, and behind-the-scenes updates by following us on social media. Be part of a community that cares about learning, sharing, and achieving healthy skin together.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 2 month ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Card 3.png" class="card3-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Exciting Update!</h5>
+      <p class="card-text">We’re currently developing a full mobile app to make skincare guidance even easier. Soon, you’ll be able to scan products, save routines, and receive ingredient alerts—all from your phone. Stay tuned for our official launch!</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 1 month ago</small></p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-auto">
+<p class="mb-0">&copy; 2025 Nicole Villavicencio | Terms of Use | Privacy Policy</p>
+</footer>
+  </body>
+</html>
